@@ -66,7 +66,8 @@ T = [
     ("Nappali-konyha + háló", "Living-kitchen + bedroom", "Wohnküche + Schlafzimmer"),
     ("Emelet, utcai erkéllyel", "Floor, street balcony", "Stock, mit Straßenbalkon"),
     ("Emelet, erkéllyel", "Floor, with balcony", "Stock, mit Balkon"),
-    ("Irányár, Ft", "Asking price, HUF", "Preis, HUF"),
+    ("Irányár, Ft", "Asking price, €", "Preis, €"),
+    ("79 M", "217,000", "217.000"),
     # --- why this apartment
     ("Miért ez a lakás?", "Why this apartment?", "Warum diese Wohnung?"),
     ("Százéves polgári ház, mai kényelemmel.", "A hundred-year-old townhouse with today’s comforts.",
@@ -276,7 +277,7 @@ T = [
      "Diese Seite ist bis zum Verkauf online."),
     ("A lakás", "The apartment", "Die Wohnung"),
     ("Időpontfoglalás", "Book a viewing", "Besichtigung"),
-    ("79 M Ft", "HUF 79 M", "79 Mio. HUF"),
+    ("79 M Ft", "€217,000", "217.000 €"),
     ("79 m² · 2 szoba · erkély", "79 m² · 2 rooms · balcony", "79 m² · 2 Zimmer · Balkon"),
     # --- image descriptions (alt) on the page and in the gallery
     ("A ház felújított, fehér polgári homlokzata az emeleti ablakokkal és a kovácsoltvas erkéllyel",
@@ -381,14 +382,14 @@ RAW = [
 HEAD = {
     "en": {
         "title": "Apartment for sale – Baja, Hungary, town centre",
-        "desc": "For sale: 79 m², 2-room period apartment in the centre of Baja, Hungary, fully renovated in 2018 – underfloor heating, smart home, premium Whirlpool kitchen, private staircase. Asking price: HUF 79 million. Direct from the owner.",
+        "desc": "For sale: 79 m², 2-room period apartment in the centre of Baja, Hungary, fully renovated in 2018 – underfloor heating, smart home, premium Whirlpool kitchen, private staircase. Asking price: €217,000 (HUF 79 million). Direct from the owner.",
         "locale": "en_GB",
         "imgalt": "Period apartment for sale, Baja, Hungary",
         "placeholder": "Apartment for sale",
     },
     "de": {
         "title": "Wohnung zu verkaufen – Baja, Ungarn, Innenstadt",
-        "desc": "Zu verkaufen: 79 m² große 2-Zimmer-Altbauwohnung in der Innenstadt von Baja (Ungarn), 2018 komplett renoviert – Fußbodenheizung, Smart Home, Premium-Küche von Whirlpool, privates Treppenhaus. Preis: 79 Mio. HUF. Direkt vom Eigentümer.",
+        "desc": "Zu verkaufen: 79 m² große 2-Zimmer-Altbauwohnung in der Innenstadt von Baja (Ungarn), 2018 komplett renoviert – Fußbodenheizung, Smart Home, Premium-Küche von Whirlpool, privates Treppenhaus. Preis: 217.000 € (79 Mio. HUF). Direkt vom Eigentümer.",
         "locale": "de_DE",
         "imgalt": "Altbauwohnung zu verkaufen, Baja, Ungarn",
         "placeholder": "Wohnung zu verkaufen",
