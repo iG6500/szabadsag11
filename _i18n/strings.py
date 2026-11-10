@@ -60,6 +60,7 @@ T = [
     ("modern letisztultság", "modern simplicity", "moderne Klarheit"),
     ("Fedezze fel", "Explore", "Entdecken"),
     ("Hívjon most", "Call now", "Jetzt anrufen"),
+    ("A lakás Facebook-oldala", "The apartment on Facebook", "Die Wohnung auf Facebook"),
     ("Hívás", "Call", "Anrufen"),
     ("Alapterület", "Floor area", "Wohnfläche"),
     ("Alapterület (kb.)", "Floor area (approx.)", "Wohnfläche (ca.)"),
