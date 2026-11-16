@@ -61,6 +61,7 @@ T = [
     ("Fedezze fel", "Explore", "Entdecken"),
     ("Hívjon most", "Call now", "Jetzt anrufen"),
     ("A lakás Facebook-oldala", "The apartment on Facebook", "Die Wohnung auf Facebook"),
+    ("Adatkezelés", "Privacy policy (HU)", "Datenschutz (HU)"),
     ("Hívás", "Call", "Anrufen"),
     ("Alapterület", "Floor area", "Wohnfläche"),
     ("Alapterület (kb.)", "Floor area (approx.)", "Wohnfläche (ca.)"),
@@ -364,6 +365,7 @@ T = [
 # Raw replacements in the page scripts: gallery matching rules that look at
 # the (now translated) image descriptions, and the slider's "next" check.
 RAW = [
+    ('href="adatkezeles.html"', 'href="../adatkezeles.html"', 'href="../adatkezeles.html"'),
     ("page: /homlokzat/i", "page: /façade/i", "page: /Fassade/i"),
     ("page: /utcai ablaka/i", "page: /street windows/i", "page: /Straßenfenster/i"),
     ("page: /alaprajz/i", "page: /floor plan/i", "page: /Grundriss/i"),
